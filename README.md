@@ -38,3 +38,6 @@ Pour l'émulateur Android : utiliser 10.0.2.2
 - Copier le dossier backend/ dans htdocs/localisation/
 - Importer schema.sql dans phpMyAdmin
 - Démarrer Apache + MySQL (XAMPP/WAMP)
+
+<img width="178" height="383" alt="image" src="https://github.com/user-attachments/assets/0b4892af-c85c-46ab-8b75-20939d0f9cdb" />
+
