@@ -1,0 +1,36 @@
+R_DEF: Internal format may change without notice
+local
+color accent
+color background
+color card_bg
+color error
+color primary
+color primary_dark
+color success
+color text_primary
+color text_secondary
+color white
+drawable card_background
+drawable ic_launcher
+id btnMap
+id btnRefresh
+id map
+id tvAccuracy
+id tvAlt
+id tvLat
+id tvLon
+id tvMarkerCount
+id tvServer
+layout activity_main
+layout activity_maps
+string app_name
+string btn_map
+string gps_waiting
+string new_location
+string permission_denied
+string provider_disabled
+string provider_enabled
+string provider_new_status
+string server_error
+string server_ok
+style Theme.Localisation

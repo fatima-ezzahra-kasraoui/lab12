@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Toolbar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/primary"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="📍 Positions enregistrées"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btnRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:backgroundTint="#3949AB"
+            android:text="↻ Actualiser"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            style="@style/Widget.MaterialComponents.Button"/>
+    </LinearLayout>
+
+    <!-- Google Map Fragment -->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!-- Barre inférieure -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="12dp">
+        <TextView
+            android:id="@+id/tvMarkerCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chargement des marqueurs…"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp"/>
+    </LinearLayout>
+
+</LinearLayout>

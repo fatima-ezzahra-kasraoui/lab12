@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Localisation</string>
+    <string name="provider_enabled">Le fournisseur %s est maintenant actif</string>
+    <string name="provider_disabled">Le fournisseur %s est maintenant désactivé</string>
+    <string name="provider_new_status">Le fournisseur %1$s a maintenant le statut %2$s</string>
+    <string name="new_location">Nouvelle position : Lat=%1$s, Lng=%2$s, Alt=%3$s, Précision=%4$s m</string>
+    <string name="btn_map">Afficher la Carte</string>
+    <string name="permission_denied">Permission localisation refusée</string>
+    <string name="gps_waiting">En attente du GPS…</string>
+    <string name="server_ok">✅ Position envoyée</string>
+    <string name="server_error">❌ Erreur réseau</string>
+</resources>
